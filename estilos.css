@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Segoe UI';
+    font-size: 1.6rem; 
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    display: block;
+    background-color: #E5E8E8;
+  }
+  #main{
+    background-color: #fcb0e3;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+  }
+  header{
+    text-shadow: 2px 2px 5px #F08080;
+    box-shadow: 3px 3px 5px #d3fc3f;
+  }
+  #title{  
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+        margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  font-style: italic;
+  }
+  
+  #img-div{
+    margin: 0;
+    padding: 10px;
+    background-color: #4dc4f0;
+    display: block;  
+  }
+  img{
+    display: block;
+  }
+  #image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  
+  }
+  #img-caption{
+    margin: 15px 0 5px 0;
+  }
+  #tribute-info{
+    display: block;
+    background-color: #efccf6;
+  }
+  h2{
+    margin: 50px 0;
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+  }
+  ul {
+    list-style-type: disc;
+    display: block;
+    font-size: 0.8em;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  li{
+    margin: 16px 0;
+    display: list-item;
+    text-align: justify;
+  }
+  
+  blockquote{
+    padding: 3px;
+    text-shadow: 2px 2px 5px #F3FC3F;
+    box-shadow: 5px 5px 5px #BB8FCE;
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    background-color: #AED6F1;
+  }
+  
+  h3{
+    padding: 5px
+  }
+  
+  #tribute-link{
+    color: #6084f0
+  }
+  #tribute-link:visited{
+    color: #F1C40F;
+  }
